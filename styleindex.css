@@ -20,7 +20,7 @@ h1{
     width: 400px;
 }*/
 
-.maahl{
+.notes{
     color: #45e76b;
     text-decoration: none;
     font-family: 'Nunito', serif;
@@ -29,7 +29,7 @@ h1{
     text-align: left;
     margin-left: 100px;
     padding-left: 20px;
-    padding-right: 100svh;
+    padding-right: 150svh;
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 10px;
@@ -38,7 +38,7 @@ h1{
     width: 10px;
 }
 
-.phyhl{
+.classrec{
     color: #45e76b;
     text-decoration: none;
     font-family: 'Nunito', serif;
@@ -47,7 +47,7 @@ h1{
     text-align: left;
     margin-left: 100px;
     padding-left: 20px;
-    padding-right: 144svh;
+    padding-right: 134svh;
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 10px;
@@ -55,7 +55,7 @@ h1{
     display: inline;
 }
 
-.cshl{
+.books{
     color: #45e76b;
     text-decoration: none;
     font-family: 'Nunito', serif;
@@ -64,14 +64,14 @@ h1{
     text-align: left;
     margin-left: 100px;
     padding-left: 20px;
-    padding-right: 129svh;
+    padding-right: 150svh;
     padding-bottom: 10px;
     padding-top: 10px;
     border-radius: 10px;
     transition: 0.3s;
 }
 
-.chemsl{
+.worsol{
     color: #45e76b;
     text-decoration: none;
     font-family: 'Nunito', serif;
@@ -80,14 +80,16 @@ h1{
     text-align: left;
     margin-left: 100px;
     padding-left: 20px;
-    padding-right: 141svh;
+    padding-right: 133svh;
     padding-bottom: 10px;
     padding-top: 10px;
     border-radius: 10px;
     transition: 0.3s;
 }
 
-.fab{
+
+
+/*.fab{
     color: #45e76b;
     text-decoration: none;
     font-family: 'Nunito', serif;
@@ -118,7 +120,7 @@ h1{
     border-radius: 10px;
     transition: 0.3s;
 }
-
+*/
 a:hover{
     background-color: #302c2c;
 }

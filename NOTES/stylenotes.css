@@ -1,12 +1,12 @@
 @font-face {
     font-family: 'Nunito';
-    src: url(Nunito-VariableFont_wght.ttf)
+    src: url(Nunito-VariableFont_wght.ttf);
 }
 body{
     background-color: #180F0F;
 }
 
-h2{
+h1{
     color: #45e76b;
     font-family: 'Nunito', serif;
     font-size: 35px;
@@ -16,16 +16,11 @@ h2{
     margin-bottom: 75px;
 }
 
-h3{
-    color: #45e76b;
-    font-family: 'Nunito', serif;
-    font-size: 25px;
-    font-weight: 550;
-    text-align: left;
-    margin-left: 100px;
-}
+/*.maahl,.phyhl,.chemsl,.cshl,.ellsl,.fab{
+    width: 400px;
+}*/
 
-a{
+.maahl{
     color: #45e76b;
     text-decoration: none;
     font-family: 'Nunito', serif;
@@ -33,22 +28,34 @@ a{
     font-weight: 700;
     text-align: left;
     margin-left: 100px;
-    margin-bottom: 10px;
     padding-left: 20px;
-    padding-right: 70svh;
-    padding-bottom: 4.8px;
-    padding-top: 4.8px;
+    padding-right: 100svh;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    transition: 0.3s;
+    display: inline;
+    width: 10px;
+}
+
+.phyhl{
+    color: #45e76b;
+    text-decoration: none;
+    font-family: 'Nunito', serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+    margin-left: 100px;
+    padding-left: 20px;
+    padding-right: 144svh;
+    padding-top: 10px;
+    padding-bottom: 10px;
     border-radius: 10px;
     transition: 0.3s;
     display: inline;
 }
 
-a:hover{
-    background-color: #302c2c;
-    
-}
-/*
-a.phyhl{
+.cshl{
     color: #45e76b;
     text-decoration: none;
     font-family: 'Nunito', serif;
@@ -57,14 +64,14 @@ a.phyhl{
     text-align: left;
     margin-left: 100px;
     padding-left: 20px;
-    padding-right: 72.5%;
-    padding-bottom: 15px;
-    padding-top: 15px;
+    padding-right: 129svh;
+    padding-bottom: 10px;
+    padding-top: 10px;
     border-radius: 10px;
     transition: 0.3s;
 }
 
-a.cshl{
+.chemsl{
     color: #45e76b;
     text-decoration: none;
     font-family: 'Nunito', serif;
@@ -73,14 +80,14 @@ a.cshl{
     text-align: left;
     margin-left: 100px;
     padding-left: 20px;
-    padding-right: 64.8%;
-    padding-bottom: 15px;
-    padding-top: 15px;
+    padding-right: 141svh;
+    padding-bottom: 10px;
+    padding-top: 10px;
     border-radius: 10px;
     transition: 0.3s;
 }
 
-a.chemsl{
+.fab{
     color: #45e76b;
     text-decoration: none;
     font-family: 'Nunito', serif;
@@ -89,30 +96,14 @@ a.chemsl{
     text-align: left;
     margin-left: 100px;
     padding-left: 20px;
-    padding-right: 70.5%;
-    padding-bottom: 15px;
-    padding-top: 15px;
-    border-radius: 10px;
-    transition: 0.3s;
-}
-
-a.fab{
-    color: #45e76b;
-    text-decoration: none;
-    font-family: 'Nunito', serif;
-    font-size: 20px;
-    font-weight: 700;
-    text-align: left;
-    margin-left: 100px;
-    padding-left: 20px;
-    padding-right: 68.6%;
-    padding-bottom: 15px;
-    padding-top: 15px;
+    padding-right: 137svh;
+    padding-bottom: 10px;
+    padding-top: 10px;
     border-radius: 10px;
     transition: 0.3s;
 }   
 
-a.ellsl{
+.ellsl{
     color: #45e76b;
     text-decoration: none;
     font-family: 'Nunito', serif;
@@ -121,9 +112,13 @@ a.ellsl{
     text-align: left;
     margin-left: 100px;
     padding-left: 20px;
-    padding-right: 55.5%;
-    padding-bottom: 15px;
-    padding-top: 15px;
+    padding-right: 111svh;
+    padding-bottom: 10px;
+    padding-top: 10px;
     border-radius: 10px;
     transition: 0.3s;
+}
+
+a:hover{
+    background-color: #302c2c;
 }
